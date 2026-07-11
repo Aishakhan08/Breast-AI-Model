@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+plotly
+Pillow
+fpdf2
+bcrypt
+qrcode
+openpyxl
