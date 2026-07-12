@@ -39,7 +39,7 @@ def get_base64(file):
     with open(file, "rb") as f:
         return base64.b64encode(f.read()).decode()
 
-img = get_base64("assets/hospital_bg.jpg")
+img = get_base64("hospital_bg.jpg")
 
 if "login" not in st.session_state:
     st.session_state.login = False
